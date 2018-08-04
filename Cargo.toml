@@ -1,0 +1,13 @@
+[package]
+name = "raylib-rs"
+version = "0.1.0"
+authors = ["Joseph Catrambone <jo.jcat@gmail.com>"]
+links = "raylib"
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.26.3"
+cmake = "0.1"
+#cc = { version = "1.0.18", features = ["parallel"] }
